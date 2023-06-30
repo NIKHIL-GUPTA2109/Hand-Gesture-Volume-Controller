@@ -8,13 +8,16 @@ The Hand Gesture Volume Control is a Python script that allows you to control th
 •	Pycaw library (pip install pycaw)
 •	Comtypes library (pip install comtypes)
 # Usage
+
 1.	Ensure that your computer has a webcam or a built-in camera.
 2.	Install the required Python libraries mentioned above, if not already installed.
 3.	Clone or download the repository containing the script.
 4.	Open a terminal or command prompt and navigate to the project directory.
 5.	Run the following command to start the Hand Gesture Volume Control:
+   
 # bashCopy code
   python hand_gesture_volume_control.py 
+  
 6.	The script will access your camera and display the video feed.
 7.	Position your hand in front of the camera with your palm facing towards it.
 8.	Extend your thumb and little finger to adjust the volume. Moving your thumb and little finger closer or farther from each other will control the volume levels accordingly.
@@ -23,13 +26,17 @@ The Hand Gesture Volume Control is a Python script that allows you to control th
 # Customization
 You can customize the script to adjust sensitivity, the volume range, or modify the hand gesture landmarks by modifying the script itself. Look for the relevant sections within the code and make the necessary changes.
 # Limitations
+
 •	The accuracy of the hand gesture detection may vary depending on lighting conditions and camera quality.
 •	This script currently supports adjusting the volume using the distance between the thumb and little finger landmarks. Other gestures or functionalities are not implemented in this version.
 # Contributing
+
 Contributions to the Hand Gesture Volume Control project are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 # License
+
 This project is licensed under the MIT License.
 # Acknowledgments
+
 •	OpenCV for computer vision functionality.
 •	MediaPipe for hand tracking and gesture recognition.
 •	Pycaw for controlling audio playback.
